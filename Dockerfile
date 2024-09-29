@@ -8,7 +8,7 @@ ENV MYSQL_USER=deekshith
 ENV MYSQL_PASSWORD=Deek@123
 
 # Expose the default MySQL port
-EXPOSE 3306
+EXPOSE 8080
 
 # Optional: Include a SQL script to initialize the database (if needed)
 # COPY ./init.sql /docker-entrypoint-initdb.d/
